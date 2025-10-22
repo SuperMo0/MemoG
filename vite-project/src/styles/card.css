@@ -2,6 +2,10 @@
     perspective: 800px;
 }
 
+body {
+    display: block;
+}
+
 .card {
     height: 300px;
     width: 200px;
