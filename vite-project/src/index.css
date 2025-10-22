@@ -1,0 +1,18 @@
+#root {
+  background-color: rgb(45, 48, 48);
+  min-height: 100vh;
+  --black: rgb(45, 48, 48);
+  --yellow: rgb(202, 138, 55);
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+
+}
+
+* {
+  color: aliceblue;
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  line-height: calc(1em+1rem);
+}

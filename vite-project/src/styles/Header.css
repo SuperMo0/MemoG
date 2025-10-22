@@ -1,0 +1,17 @@
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.score {
+    background-color: rgb(202, 138, 55);
+    padding: 20px;
+}
+
+.score_number {
+    margin-left: 10px;
+    color: var(--black);
+    text-decoration: underline;
+}
