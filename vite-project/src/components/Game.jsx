@@ -36,9 +36,7 @@ export function Game() {
         shuffle(shuffeledData);
     }
 
-    let handleClick = (name) => {
-        console.log(clickedSet);
-
+    let handleClick = (e, name) => {
         if (clickedSet.has(name)) {
             setActive(false);
             setHighestScore(Math.max(highestScore, crntScore));
@@ -50,7 +48,6 @@ export function Game() {
             new_set.add(name);
             setClickedSet(new_set);
         }
-
     }
     if (!active) {
         return <>
