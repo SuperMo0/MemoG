@@ -26,7 +26,6 @@ function handle_leave(e) {
 
 export function Card({ title, image, handleClick }) {
 
-
     return (
         <div className="card_wrapper" onClick={() => { handleClick(title) }}>
             <div className="card" onMouseMove={handle_hover} onMouseLeave={handle_leave}>
